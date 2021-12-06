@@ -127,6 +127,10 @@ nav {
   text-align: center;
 }
 
+.card-title {
+  margin-top: 0;
+}
+
 .languagesdef {
   text-decoration: none;
   color: #333;
@@ -157,6 +161,10 @@ nav {
 .button:focus {
   background: #008552;
   border-radius: 8px;
+}
+
+.buttoncont {
+  margin-top: 8px;
 }
 
 .button2 {
@@ -232,6 +240,36 @@ nav {
 }
 
 .Ruby {
+  float: left;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  margin: 2px;
+  background-color: #ebf0ee;
+  border: 1px solid #ebf0ee;
+  border-radius: 8px;
+}
+.css {
+  float: left;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  margin: 2px;
+  background-color: #ebf0ee;
+  border: 1px solid #ebf0ee;
+  border-radius: 8px;
+}
+.Javascript {
+  float: left;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  margin: 2px;
+  background-color: #ebf0ee;
+  border: 1px solid #ebf0ee;
+  border-radius: 8px;
+}
+.html {
   float: left;
   text-decoration: none;
   color: #333;
