@@ -238,7 +238,7 @@ nav {
   align-items: center;
   flex-direction: column;
   width: 375px;
-  height: 900px;
+  height: 750px;
 }
 
 .contact-text {
@@ -252,11 +252,11 @@ nav {
 }
 
 .contact-shape {
-  position: absolute;
+  position: relative;
   height: 173px;
   width: 70px;
-  right: 760px;
-  top: 6623px;
+  right: -150px;
+  top: 900px;
 }
 
 .contact-form {
@@ -302,6 +302,48 @@ nav {
   line-height: 24px;
   text-align: center;
   margin-bottom: 24px;
+  cursor: pointer;
+}
+.Form-btn:hover {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.Form-btn:focus {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #008552;
+  border: 1px solid #008552;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  background: #36b37f;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
 }
 
 .Form-text {
@@ -312,9 +354,9 @@ nav {
 }
 
 .Form-text::-webkit-input-placeholder {
-  padding: 114px 327px;
   top: 0;
   left: 0;
+  font-size: 20px;
 }
 
 .social {
@@ -323,4 +365,14 @@ nav {
   align-items: center;
   list-style: none;
   padding: 0;
+}
+
+.contact {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
 }
