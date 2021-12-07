@@ -343,8 +343,8 @@ nav {
 .Form-text {
   height: 114px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 4px;
   margin-bottom: 44px;
   line-height: 24px;
