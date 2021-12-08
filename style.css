@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 .main {
@@ -11,7 +12,7 @@ html {
   flex-direction: column;
 }
 
-nav {
+.navigation {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +30,7 @@ nav {
   border-radius: 0;
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
+  background-repeat: no-repeat;
 }
 
 .second-container {
@@ -81,7 +83,6 @@ nav {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 140px;
 }
 
 .indecator {
@@ -386,4 +387,58 @@ nav {
   letter-spacing: 0;
   text-align: center;
   text-decoration: none;
+}
+
+@media screen and (min-width: 1100px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .icon {
+    display: none;
+  }
+  .Logo-heading {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    background-image: url(images/Header-llustration-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content {
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+  }
+
+  .p {
+    width: 622px;
+  }
+
+  .desk-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  .desk-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    margin: 0 26px;
+  }
 }
