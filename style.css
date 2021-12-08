@@ -1,7 +1,7 @@
 html {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .main {
@@ -116,11 +116,19 @@ nav {
 }
 
 .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 232px;
   background-color: #fff;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   text-align: center;
+}
+
+.card-title {
+  margin-top: 0;
 }
 
 .languagesdef {
@@ -153,6 +161,10 @@ nav {
 .button:focus {
   background: #008552;
   border-radius: 8px;
+}
+
+.buttoncont {
+  margin-top: 8px;
 }
 
 .button2 {
@@ -218,4 +230,160 @@ nav {
   border: 1px solid #fff;
   border-radius: 8px;
   margin: 5px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 915px;
+  width: 375px;
+}
+
+.contact-text {
+  height: 363px;
+  width: 327px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.contact-shape {
+  position: relative;
+  height: 173px;
+  width: 70px;
+  left: 156px;
+  bottom: 206px;
+}
+
+.contact-form {
+  height: auto;
+  width: 327px;
+  left: 24px;
+  top: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Form-Name {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  line-height: 24px;
+}
+
+.Form-Email {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  line-height: 24px;
+}
+
+.Form-btn {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.Form-btn:hover {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.Form-btn:focus {
+  height: 48px;
+  width: 129px;
+  left: 99px;
+  top: 282px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #008552;
+  border: 1px solid #008552;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.Form-text {
+  height: 114px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  margin-bottom: 44px;
+  line-height: 24px;
+}
+
+.Form-text::-webkit-input-placeholder {
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Form-Name::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.Form-Email::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.contact {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
 }
