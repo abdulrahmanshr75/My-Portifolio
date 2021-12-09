@@ -33,7 +33,7 @@ html {
   background-repeat: no-repeat;
 }
 
-.second-container {
+.Recent-Work {
   height: auto;
   width: 375px;
   left: 0;
@@ -419,8 +419,6 @@ html {
   }
 
   .content {
-    position: relative;
-    bottom: 100px;
     width: 100%;
   }
 
@@ -440,5 +438,25 @@ html {
     font-weight: bold;
     color: #333;
     margin: 0 26px;
+  }
+
+  .Recent-Work {
+    margin-top: 35px;
+    height: 1244px;
+    width: 100%;
+  }
+  .indecator {
+    display: none;
+  }
+
+  .heading {
+    margin: 35px 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 369px);
+    grid-template-rows: repeat(3, 474px);
+    gap: 20px;
   }
 }
