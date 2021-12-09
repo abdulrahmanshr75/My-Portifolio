@@ -156,6 +156,7 @@ nav {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 8px;
+  transition: 2s;
 }
 
 .button:focus {
