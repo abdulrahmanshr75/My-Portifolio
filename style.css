@@ -76,6 +76,10 @@ html {
   line-height: 28px;
 }
 
+.desk-nav {
+  display: none;
+}
+
 .content {
   display: flex;
   width: 375px;
@@ -83,6 +87,7 @@ html {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  margin-top: 125px;
 }
 
 .indecator {
