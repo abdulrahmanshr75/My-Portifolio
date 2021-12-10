@@ -33,13 +33,26 @@ html {
   background-repeat: no-repeat;
 }
 
-.Recent-Work {
+.about-me {
   height: auto;
   width: 375px;
   left: 0;
   top: 92px;
 }
 
+.vector-desk {
+  display: none;
+}
+.vector-desk2 {
+  display: none;
+}
+
+.Recent-Work {
+  height: auto;
+  width: 375px;
+  left: 0;
+  top: 92px;
+}
 .icon {
   position: relative;
   height: 24px;
@@ -424,11 +437,38 @@ html {
   }
 
   .content {
+    position: relative;
     width: 100%;
+    margin-top: 88px;
+    bottom: 104px;
+  }
+
+  .vector {
+    display: none;
+  }
+  .vector2 {
+    display: none;
+  }
+
+  .vector-desk {
+    position: relative;
+    display: block;
+    width: 288px;
+    bottom: 2128px;
+    left: 613px;
+  }
+
+  .vector-desk2 {
+    position: relative;
+    display: block;
+    width: 288px;
+    bottom: 2110px;
+    right: 610px;
   }
 
   .p {
     width: 622px;
+    margin: 24px 0;
   }
 
   .desk-nav {
@@ -445,23 +485,50 @@ html {
     margin: 0 26px;
   }
 
+  .about-me {
+    margin-top: 35px;
+    height: 820px;
+    width: 100%;
+  }
+
   .Recent-Work {
     margin-top: 35px;
     height: 1244px;
     width: 100%;
   }
+
   .indecator {
     display: none;
   }
 
   .heading {
-    margin: 35px 0;
+    margin: 24px 0;
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 369px);
-    grid-template-rows: repeat(3, 474px);
     gap: 20px;
+  }
+
+  .button2 {
+    margin-bottom: 52px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    background-color: #36b37f;
+    border: 1px solid #36b37f;
+    border-radius: 8px;
+  }
+
+  .button2:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 8px;
+  }
+
+  .button2:focus {
+    background: #008552;
+    border-radius: 8px;
   }
 }
