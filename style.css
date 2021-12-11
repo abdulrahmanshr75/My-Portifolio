@@ -96,6 +96,7 @@ html {
   text-align: center;
   color: #36b37e;
   margin: 0;
+  animation: 2s animation ease-in-out;
 }
 
 .p {
@@ -193,6 +194,7 @@ html {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 8px;
+  transition: 2s;
 }
 
 .button:focus {
@@ -360,6 +362,7 @@ html {
   margin-bottom: 24px;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: 2s;
 }
 
 .Form-btn:focus {
@@ -428,6 +431,7 @@ html {
   text-align: center;
   text-decoration: none;
 }
+
 
 @media screen and (min-width: 1100px) {
   .navigation {
@@ -671,6 +675,19 @@ html {
   }
 
   .social-link {
+<<<<<<< HEAD
     margin: 0 6px;
+=======
+    margin: 0 5px;
+@keyframes animation {
+  from {
+    margin-left: 100%;
+    color: white;
+  }
+  to {
+    margin-right: 0%;
+    color: #36b37e;
+
+>>>>>>> 96c99b2d1150f3b9f03026fe485a6f87d24bd9ff
   }
 }
