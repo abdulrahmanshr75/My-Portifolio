@@ -432,7 +432,6 @@ html {
   text-decoration: none;
 }
 
-
 @media screen and (min-width: 1100px) {
   .navigation {
     display: flex;
@@ -674,20 +673,19 @@ html {
     list-style: none;
   }
 
-  .social-link {
-<<<<<<< HEAD
-    margin: 0 6px;
-=======
+  .social-links {
     margin: 0 5px;
-@keyframes animation {
-  from {
-    margin-left: 100%;
-    color: white;
   }
-  to {
-    margin-right: 0%;
-    color: #36b37e;
 
->>>>>>> 96c99b2d1150f3b9f03026fe485a6f87d24bd9ff
+  @keyframes animation {
+    from {
+      margin-left: 100%;
+      color: white;
+    }
+
+    to {
+      margin-right: 0%;
+      color: #36b37e;
+    }
   }
 }
