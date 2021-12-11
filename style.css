@@ -626,11 +626,13 @@ html {
     margin-bottom: 24px;
     border-radius: 4px;
     line-height: 24px;
+    border: 1px solid #d0d9d4;
   }
 
   .Form-Email {
     width: 684px;
     height: 48px;
+    border: 1px solid #d0d9d4;
     margin-bottom: 24px;
     border-radius: 4px;
     line-height: 24px;
@@ -639,9 +641,29 @@ html {
   .Form-text {
     width: 684px;
     height: 114px;
+    border: 1px solid #d0d9d4;
     margin-bottom: 24px;
     border-radius: 4px;
     line-height: 24px;
+  }
+
+  .Form-text:hover {
+    width: 684px;
+    height: 114px;
+    border: 1px solid #60c095;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    line-height: 24px;
+  }
+
+  .Form-text:focus {
+    width: 684px;
+    height: 114px;
+    border: 1px solid #60c095;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    line-height: 24px;
+    outline: none;
   }
 
   .social {
@@ -673,7 +695,7 @@ html {
     list-style: none;
   }
 
-  .social-links {
+  .social-link {
     margin: 0 5px;
   }
 
