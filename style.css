@@ -43,15 +43,19 @@ html {
 .vector-desk {
   display: none;
 }
+
 .vector-desk3 {
   display: none;
 }
+
 .vector-desk4 {
   display: none;
 }
+
 .vector-desk5 {
   display: none;
 }
+
 .vector-desk2 {
   display: none;
 }
@@ -62,6 +66,7 @@ html {
   left: 0;
   top: 92px;
 }
+
 .icon {
   position: relative;
   height: 24px;
@@ -437,6 +442,7 @@ html {
   .icon {
     display: none;
   }
+
   .Logo-heading {
     display: none;
   }
@@ -463,6 +469,7 @@ html {
   .vector {
     display: none;
   }
+
   .vector2 {
     display: none;
   }
@@ -482,13 +489,15 @@ html {
     bottom: -1852px;
     right: 1230px;
   }
+
   .vector-desk3 {
     position: absolute;
     display: block;
     width: 234px;
     top: 3521px;
-    left: 0px;
+    left: 0;
   }
+
   .vector-desk4 {
     position: absolute;
     display: block;
@@ -496,6 +505,7 @@ html {
     top: 3787px;
     right: 1136px;
   }
+
   .vector-desk5 {
     position: absolute;
     display: block;
@@ -553,12 +563,12 @@ html {
     margin: 0 12px;
     height: 256px;
     width: 463px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     font-size: 30px;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
   }
 
