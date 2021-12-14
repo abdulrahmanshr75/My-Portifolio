@@ -268,7 +268,7 @@ html {
 
 .languagesdef2 {
   text-decoration: none;
-  color: #36b37e;
+  color: #4d4d4d;
   padding: 15px;
   background-color: #fff;
   border: 1px solid #fff;
@@ -593,7 +593,7 @@ html {
   .button2 {
     margin-bottom: 52px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     padding: 15px;
     background-color: #36b37f;
     border: 1px solid #36b37f;
@@ -673,6 +673,7 @@ html {
 
   .Form-btn {
     align-self: flex-start;
+    color: #000;
   }
 
   .line {
