@@ -11,6 +11,18 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation {
@@ -32,6 +44,36 @@ html {
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
+}
+
+.mobile-nav {
+  position: absolute;
+  top: 0px;
+  width: 375px;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  z-index: 10;
+  list-style: none;
+}
+
+.mobile-nav a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  height: 24px;
+  width: 251px;
+}
+
+.mobile-nav li {
+  margin: 24px 0;
 }
 
 .about-me {
@@ -103,10 +145,6 @@ html {
 .p {
   margin: 8px 0;
   line-height: 28px;
-}
-
-.desk-nav {
-  display: none;
 }
 
 .content {
@@ -433,6 +471,10 @@ html {
   text-decoration: none;
 }
 
+.desk-nav {
+  display: none;
+}
+
 @media screen and (min-width: 1100px) {
   .navigation {
     display: flex;
@@ -448,6 +490,10 @@ html {
   }
 
   .Logo-heading {
+    display: none;
+  }
+
+  .mobile-nav {
     display: none;
   }
 
@@ -521,20 +567,6 @@ html {
   .p {
     width: 622px;
     margin: 24px 0;
-  }
-
-  .desk-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
-  .desk-link {
-    text-decoration: none;
-    font-weight: bold;
-    color: #333;
-    margin: 0 26px;
   }
 
   .about-me {
