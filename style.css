@@ -19,7 +19,7 @@ header {
   width: 375px;
 }
 
-.container {
+/* .container {
   z-index: 1;
   height: auto;
   width: 375px;
@@ -29,7 +29,7 @@ header {
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-}
+} */
 
 .navbar {
   display: flex;
