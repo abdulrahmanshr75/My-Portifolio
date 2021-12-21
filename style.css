@@ -15,25 +15,6 @@ html {
   padding: 0;
 }
 
-header {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 375px;
-  height: auto;
-  flex-direction: row;
-}
-
 .container {
   z-index: 1;
   height: auto;
@@ -44,36 +25,6 @@ header {
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-}
-
-.mobile-nav {
-  position: absolute;
-  top: 0px;
-  width: 375px;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  background-color: #ffffff;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
-  z-index: 10;
-  list-style: none;
-}
-
-.mobile-nav a {
-  color: #222;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  height: 24px;
-  width: 251px;
-}
-
-.mobile-nav li {
-  margin: 24px 0;
 }
 
 .about-me {
@@ -476,24 +427,7 @@ header {
 }
 
 @media screen and (min-width: 1100px) {
-  .navigation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-  }
-
-  .icon {
-    display: none;
-  }
-
   .Logo-heading {
-    display: none;
-  }
-
-  .mobile-nav {
     display: none;
   }
 
