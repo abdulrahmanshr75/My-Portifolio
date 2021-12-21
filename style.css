@@ -15,6 +15,10 @@ html {
   padding: 0;
 }
 
+header {
+  width: 375px;
+}
+
 .container {
   z-index: 1;
   height: auto;
@@ -25,6 +29,66 @@ html {
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100%;
+  height: 48px;
+  margin: auto;
+  align-items: center;
+}
+
+.hambuger {
+  border-radius: 10px;
+  width: 18px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  background-color: #fff;
+}
+
+.menu-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "inter", sans-serif;
+  font-size: 32px;
+  line-height: 100px;
+}
+
+.hambug-items {
+  z-index: 12;
+  position: absolute;
+}
+
+#togclose {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+}
+
+.toggle-menu {
+  position: fixed;
+  display: none;
+  width: 375px;
+  height: 100vh;
+  top: 0;
+  left: 144px;
+  background: #fff;
+  color: #333;
+  z-index: 10;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .about-me {
@@ -70,9 +134,11 @@ html {
 }
 
 .Logo-heading {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
   position: relative;
   font-size: 20px;
-  right: 105px;
 }
 
 .heading {
@@ -431,6 +497,10 @@ html {
     display: none;
   }
 
+  .navbar {
+    display: none;
+  }
+
   .topnav {
     display: flex;
     justify-content: space-between;
@@ -456,6 +526,12 @@ html {
   .menu-link a {
     text-decoration: none;
     color: #333;
+  }
+
+  .menu {
+    display: flex;
+    padding: 0;
+    font-family: "inter", sans-serif;
   }
 
   .container {
