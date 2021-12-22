@@ -19,7 +19,7 @@ header {
   width: 375px;
 }
 
-/* .container {
+.container {
   z-index: 1;
   height: auto;
   width: 375px;
@@ -29,7 +29,7 @@ header {
   margin: 0;
   background-image: url(images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
-} */
+}
 
 .navbar {
   display: flex;
@@ -82,11 +82,11 @@ header {
   width: 375px;
   height: 100vh;
   top: 0;
-  left: 144px;
+  left: 145px;
   background: #fff;
   color: #333;
   z-index: 10;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -526,12 +526,6 @@ header {
   .menu-link a {
     text-decoration: none;
     color: #333;
-  }
-
-  .menu {
-    display: flex;
-    padding: 0;
-    font-family: "inter", sans-serif;
   }
 
   .container {
