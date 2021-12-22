@@ -247,6 +247,7 @@
           to chat please get in touch.
         </h2>
         <form
+          id="contact-form"
           class="contact-form"
           action="https://formspree.io/f/mlezeeov"
           method="post"
@@ -261,7 +262,7 @@
           />
           <input
             class="Form-Email"
-            name="Email"
+            name="email"
             type="email"
             placeholder="Email address"
             required
@@ -273,6 +274,7 @@
             placeholder="Enter text here"
             required
           ></textarea>
+          <span class="error-message"> </span>
           <button class="Form-btn" type="submit">Get in Touch</button>
           <ul class="social">
             <li class="items">
@@ -366,5 +368,6 @@
       gtag("config", "G-XY93K0GM7R");
     </script>
     <script src="Toggle.js"></script>
+    <script src="validate.js"></script>
   </body>
 </html>

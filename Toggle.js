@@ -15,3 +15,4 @@ hamburger.addEventListener('click', show);
 closetog.addEventListener('click', close);
 
 document.querySelectorAll('.menu-list').forEach((link) => link.addEventListener('click', close));
+
