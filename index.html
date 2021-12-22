@@ -15,16 +15,44 @@
   </head>
   <body>
     <main class="main">
+      <nav>
+        <div class="topnav">
+          <div>
+            <ul class="menu">
+              <li class="menu-link"><a href="#Portfolio">Portfolio</a></li>
+              <li class="menu-link"><a href="#About">About</a></li>
+              <li class="menu-link"><a href="#Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <header>
-        <nav class="navigation">
-          <h2 class="Logo-heading">Welcome</h2>
-          <ul class="desk-nav">
-            <li><a href="#Portfolio" class="desk-link">Portfolio</a></li>
-            <li><a href="#About" class="desk-link">About</a></li>
-            <li><a href="#Contact" class="desk-link">Contact</a></li>
-          </ul>
-          <img class="icon" src="images/IconMenu.png" alt="Navigation-icon" />
-        </nav>
+        <div class="navbar">
+          <a class="Logo-heading" href="#">Welcome</a>
+          <nav>
+            <div class="hambuger">
+              <img src="images/IconMenu.png" alt="menu" id="hamburger" />
+            </div>
+          </nav>
+        </div>
+        <div class="toggle-menu">
+          <div>
+            <img src="images/Icon.png" alt="close toggle" id="togclose" />
+          </div>
+          <div class="hambug-items">
+            <ul class="menu">
+              <li class="menu-list">
+                <a href="#Portfolio" class="menu-link">Portfolio</a>
+              </li>
+              <li class="menu-list">
+                <a href="#About" class="menu-link">About</a>
+              </li>
+              <li class="menu-list">
+                <a href="#Contact" class="menu-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
       <section class="container">
         <div class="content">
@@ -337,5 +365,6 @@
 
       gtag("config", "G-XY93K0GM7R");
     </script>
+    <script src="Toggle.js"></script>
   </body>
 </html>
