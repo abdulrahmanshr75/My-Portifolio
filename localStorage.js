@@ -22,5 +22,3 @@ const storeData = JSON.parse(localStorage.getItem('formData'));
 storeName.value = storeData.name;
 storeEmail.value = storeData.email;
 storeText.value = storeData.message;
-
-// Okay checked
