@@ -10,7 +10,7 @@ function store() {
     email: storeEmail.value,
     text: storeText.value,
   };
-  localStorage.setItem('User Inputs', JSON.stringify(formData));
+  localStorage.setItem('formData', JSON.stringify(formData));
 }
 
 storeName.onchange = store;
