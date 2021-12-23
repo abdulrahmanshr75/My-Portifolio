@@ -248,11 +248,13 @@
         </h2>
         <form
           class="contact-form"
+          id="myForm"
           action="https://formspree.io/f/mlezeeov"
           method="post"
         >
           <input
             class="Form-Name"
+            id="name"
             name="name"
             type="text"
             maxlength="30"
@@ -261,19 +263,23 @@
           />
           <input
             class="Form-Email"
-            name="Email"
+            id="email"
+            name="email"
             type="email"
             placeholder="Email address"
             required
           />
           <textarea
             class="Form-text"
+            id="text"
             name="text"
             maxlength="500"
             placeholder="Enter text here"
             required
           ></textarea>
-          <button class="Form-btn" type="submit">Get in Touch</button>
+          <button class="Form-btn" onclick="store()" type="submit">
+            Get in Touch
+          </button>
           <ul class="social">
             <li class="items">
               <a href="#"
@@ -366,5 +372,6 @@
       gtag("config", "G-XY93K0GM7R");
     </script>
     <script src="Toggle.js"></script>
+    <script src="localStorage.js"></script>
   </body>
 </html>
