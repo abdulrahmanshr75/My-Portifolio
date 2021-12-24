@@ -109,6 +109,12 @@ header {
   position: relative;
 }
 
+.pop-description {
+  height: 151px;
+  width: 850px;
+  margin-left: 25px;
+}
+
 .pop-image {
   height: 363px;
   width: 501px;
