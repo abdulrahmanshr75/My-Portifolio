@@ -56,11 +56,6 @@ const projects = [
     const project5 = document.getElementById('project5');
     const project6 = document.getElementById('project6');
 
-    const RemovePop = () => {
-        const Popup = document.querySelector('.popup')
-        Popup.remove();
-    }
-
     const CreatePop = (project) => {
         const Popup = document.createElement('div')
         document.body.appendChild(Popup);
@@ -70,9 +65,24 @@ const projects = [
         <div class = "h1-buttons-div">
         <h1 class="pop-title">${project.name}</h1>
         <div class = "pop-links">
-        <a class = "button" href="${project.live_version}">See live<img src="images/popup-live-icon.png"></a>
-        <a class = "button" href="${project.codesource}">See Source<img src="images/source-icon.png"></a>
+        <a class = "pop-btn" href="${project.live_version}">See live<img class = "link-image" src="images/popup-live-icon.png"></a>
+        <a class = "pop-btn" href="${project.codesource}">See Source<img class = "link-image" src="images/source-icon.png"></a
         </div>
         </div>
+        </div>
+        <ul class = "tech-pop">
+        <li class="languagesdef">Codekit</li>
+        <li class="languagesdef">GitHub</li>
+        <li class="languagesdef">javaScript</li>
+        <li class="languagesdef">Bootstrap</li>
+        <li class="languagesdef">Terminal</li>
+        <li class="languagesdef">Codepen</li>
+        </ul>
         `
     };
+
+    
+    const RemovePop = () => {
+        const Popup = document.querySelector('.popup')
+        Popup.remove();
+    }
