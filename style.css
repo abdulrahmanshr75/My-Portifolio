@@ -135,12 +135,15 @@ header {
 }
 
 .pop-btn {
+  position: relative;
+  bottom: 52px;
+  left: 55px;
+  width: 113px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 8px 43px;
+  padding: 21px 32px;
   background-color: #36b37e;
-  border-radius: 8px;
+  border-radius: 4px;
   color: #fff;
   text-decoration: none;
   margin: 0 5px;
@@ -775,7 +778,7 @@ header {
   .pop-btn {
     position: relative;
     bottom: 238px;
-    left: 636px;
+    left: 598px;
     display: flex;
     align-items: center;
     justify-content: center;
