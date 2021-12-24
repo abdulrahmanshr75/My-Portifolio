@@ -51,6 +51,7 @@ header {
   margin: auto;
   align-items: center;
 }
+
 /* popup */
 
 .popup {
@@ -84,7 +85,6 @@ header {
   list-style: none;
   padding: 0;
   margin-left: 36px;
-  list-style: none;
   flex-direction: row;
   position: relative;
   bottom: 35px;
@@ -103,7 +103,6 @@ header {
 }
 
 .exit-popup {
-  height: 35px;
   width: 24px;
   left: 350px;
   bottom: 10px;
@@ -124,8 +123,6 @@ header {
 .pop-image {
   height: 426px;
   width: 709px;
-  left: 24px;
-  top: 78px;
   left: 24px;
   top: 78px;
   border-radius: 8px;
