@@ -4,7 +4,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies: ['Ruby On Rails', 'css', 'javaScript'],
+    technologies: ['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -12,7 +12,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies:['Ruby On Rails', 'css', 'javaScript'],
+    technologies:['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -20,7 +20,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies:['Ruby On Rails', 'css', 'javaScript'],
+    technologies:['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -28,7 +28,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies:['Ruby On Rails', 'css', 'javaScript'],
+    technologies:['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -36,7 +36,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies:['Ruby On Rails', 'css', 'javaScript'],
+    technologies:['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen', ],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -44,7 +44,7 @@ const projects = [
     name: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     imageurl: 'images/snapshoot-2.png',
-    technologies: ['Ruby On Rails', 'css', 'javaScript'],
+    technologies: ['Ruby On Rails', 'css', 'javaScript','Codekit', 'GitHub', 'Javasript', 'Bootstrap', 'Terminal', 'Codepen'],
     live_version: 'https://github.com/abdulrahmanshr75?tab=repositories/',
     codesource: 'https://github.com/abdulrahmanshr75?tab=repositories',
   },
@@ -62,12 +62,21 @@ const CreatePop = (project) => {
   document.body.appendChild(Popup);
   Popup.classList.add('popup');
   Popup.innerHTML += `<span class = "pop-exit" onclick="RemovePop()">&times;</span>
-  <img class="project-img" src="${project.imageurl}">
+  <img class="pop-exit-desk" onclick="RemovePop()" src="images/Disabled.png">
+  <div class="project-img"></div>
   <h1 class="pop-title">${project.name}</h1>
   <ul class="pop-ul">
   <li class ="pop-li">${project.technologies[0]}</li>
   <li class ="pop-li">${project.technologies[1]}</li>
   <li class ="pop-li">${project.technologies[2]}</li>
+  </ul>
+  <ul class="pop-ul-desk">
+  <li class ="pop-li">${project.technologies[3]}</li>
+  <li class ="pop-li">${project.technologies[4]}</li>
+  <li class ="pop-li">${project.technologies[5]}</li>
+  <li class ="pop-li">${project.technologies[6]}</li>
+  <li class ="pop-li">${project.technologies[7]}</li>
+  <li class ="pop-li">${project.technologies[8]}</li>
   </ul>
   <p class = "pop-d">${project.description}</p>
   <div class="btn-container">
