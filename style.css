@@ -659,8 +659,8 @@ header {
 
   .project-img {
     background-image: url(./images/snapshoot.png);
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 60%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -806,8 +806,8 @@ header {
 
   .exit-popup {
     width: 24px;
-    left: 350px;
-    bottom: 10px;
+    left: 424px;
+    top: -10px;
     border-radius: 8px;
     height: auto;
     cursor: pointer;
