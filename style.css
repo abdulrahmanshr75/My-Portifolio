@@ -94,7 +94,6 @@ header {
 
 .pop-d {
   position: relative;
-  left: 0px;
   width: 280px;
   font-size: 15px;
 }
@@ -804,6 +803,7 @@ header {
     top: 3521px;
     left: 0;
   }
+
   .vector-desk4 {
     position: absolute;
     display: block;
